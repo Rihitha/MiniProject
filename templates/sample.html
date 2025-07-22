@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body
+        {
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-size:cover;
+        background-image: url({{url_for('static',filename='image.jpg')}})
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+    <form class="grid" action="/result" method="POST">
+    <font color="White"><h1>Audio Recorder</h1>
+    <font size="5"><p>To record our voice click on the record button to stop the recording stop talking and maintain the silence then it will analyse</p>
+	<button big>Record</button></font></font>
+    </form>
+    </center>
+</body>
+</html>
